@@ -121,7 +121,7 @@ def test(size, occurence_test):
 
         #resultat
     print(f"taille {size}")
-    print(f"occurence de test {occurence_test}")
+    print(f"occurence de test {occurence_test}\n")
 
     print("temps moyen pour accès à l'élément n/2\n---")
     print(f"linked_list : {sum(time_test_linked_list_half)/occurence_test}")
@@ -145,12 +145,12 @@ def test(size, occurence_test):
     print(f"linked_list : {sum(time_test_linked_list_back)/occurence_test}")
     print(f"dynamic_array : {sum(time_test_dynamic_array_back)/occurence_test}")
 
+    print("==========\n==========\n")
+
 def main():
     test(1000,10)
     test(10000,10)
     test(100000,10)
     test(1000000,10)
-
-
 
 main()
