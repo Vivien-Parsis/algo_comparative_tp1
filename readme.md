@@ -164,3 +164,9 @@ dynamic_array : 1.5974044799804688e-06
 ==========
 ==========
 ```
+
+## Recommendation finale
+
+### Solution A
+
+Mon choix portera sur le hash table. La recherche sur la collection est importante mais rarement modifier, la performance sur la recherche prime, malgré le fait qu'elle est plus couteuse en construction et plus difficile a implementé que les autre.
