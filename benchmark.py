@@ -42,6 +42,7 @@ def test(size, occurence_test):
 
     time_test_linked_list_back = []
     time_test_dynamic_array_back = []
+
     for x in range(occurence_test):
         #half
         start = time.time()
@@ -119,7 +120,7 @@ def test(size, occurence_test):
         end = time.time()
         time_test_dynamic_array_back.append(end-start)
 
-        #resultat
+    #resultat
     print(f"taille {size}")
     print(f"occurence de test {occurence_test}\n")
 
