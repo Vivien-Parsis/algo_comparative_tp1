@@ -33,7 +33,7 @@ selon moi le dynamic array est le plus rapide que le linked list vu leur complex
 
 Selon moi le plus rapide est dynamic array, suivi du linked list et enfin du hash table.
 
-## resultat benchmark
+## resultat console benchmark
 
 ```none
 taille 1000
